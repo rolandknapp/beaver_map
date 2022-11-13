@@ -1,0 +1,50 @@
+---
+title: "Map of beaver locations on the Kern Plateau, California"
+author: "<strong>Roland A. Knapp</strong> <br>email: roland.knapp@ucsb.edu <br> GitHub: https://github.com/rolandknapp"
+date: "`r format(Sys.time())`"
+format: html
+editor: visual
+---
+
+There is currently increasing interest in using [low-tech process-based methods](http://lowtechpbr.restoration.usu.edu), including beaver dam analogs, to restore degraded meadows on the Kern Plateau. As such, knowing the historical distribution of beavers in this area might be useful.
+
+The following is an interactive map that shows the locations of available observations. Clicking on the blue markers provides additional details about each observation. Note that several markers are sometimes located in close proximity and can be distinguished only by zooming in on the map. The information sources I used include (1) observations I made in recent years while conducting field work, (2) observations that others reported to me, (3) observations mentioned in reports, and (4) beaver ponds I detected during a review of Google Earth imagery (1989-2022) for meadows in the South Fork Kern River watershed (Monache Meadows to headwaters) and Golden Trout Creek watershed.
+
+If you know of beaver observations on the Kern Plateau that are not represented on the map, please send me the relevant information and I will add it. Relevant information should include a description of what was observed (e.g., beaver dam, cut willows, etc.), coordinates (preferably in decimal degrees), and the date of the observations. Photographs are also useful.
+
+```{r, echo=FALSE, message=FALSE}
+library(leaflet)
+library(readr)
+library(dplyr)
+```
+
+```{r, echo=FALSE, message=FALSE}
+beaver_info <- read_csv("./data/beaver_locations.csv") %>% 
+  filter(!is.na(lat)) %>% 
+  select(-photo, -photo_14Csample, -date_14C)
+```
+
+```{r, echo=FALSE}
+leaflet(beaver_info, 
+        width = 500, 
+        height = 500,
+        options = leafletOptions(minZoom = 11)) %>% 
+setView(lng = -118.2055, 
+          lat = 36.3173, 
+          zoom = 11) %>% 
+setMaxBounds(lng1 = -118.4743, 
+             lat1 = 36.5212,
+             lng2 = -117.9657, 
+             lat2 = 36.1450) %>% 
+  addProviderTiles(providers$OpenTopoMap) %>% 
+  addMarkers(
+      lng = ~lon,
+      lat = ~lat, 
+      popup = paste0(
+      "<strong>Site name: </strong>", beaver_info$site_name, "<br>",
+      "<strong>Activity: </strong>", beaver_info$activity, "<br>",
+      "<strong>Status: </strong>", beaver_info$status, "<br>",
+      "<strong>Date: </strong>", beaver_info$date, "<br>",
+      "<strong>Observer: </strong>", beaver_info$observer, "<br>",
+      "<strong>Notes: </strong>", beaver_info$notes))
+```
