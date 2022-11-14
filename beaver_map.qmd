@@ -37,8 +37,8 @@ setMaxBounds(lng1 = -118.4743,
       popup = paste0(
       "<strong>Site name: </strong>", beaver_info$site_name, "<br>",
       "<strong>Activity: </strong>", beaver_info$activity, "<br>",
-      "<strong>Status: </strong>", beaver_info$status, "<br>",
-      "<strong>Date: </strong>", beaver_info$date, "<br>",
       "<strong>Observer: </strong>", beaver_info$observer, "<br>",
+      "<strong>Date: </strong>", beaver_info$date, "<br>",
+      "<strong>Current status: </strong>", beaver_info$status, "<br>",
       "<strong>Notes: </strong>", beaver_info$notes))
 ```
