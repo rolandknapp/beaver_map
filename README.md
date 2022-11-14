@@ -10,4 +10,4 @@ If you know of beaver observations on the Kern Plateau that are not represented 
 
 <https://rolandknapp.github.io/beaver_map/beaver_map.html>
 
-If you have previously viewed the map in your current browser, you may need to refresh the page in your browser to see the latest version. 
+If you previously viewed the map in your browser, you may need to refresh the page to see the latest version. 
