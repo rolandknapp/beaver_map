@@ -6,6 +6,6 @@ The following is an interactive map that shows the locations of available beaver
 
 If you know of beaver observations on the Kern Plateau that are not represented on the map, please send me the relevant information and I will add it. Relevant information should include a description of what was observed (e.g., beaver dam, cut willows, etc.), coordinates (preferably in decimal degrees), and the date of the observations. Photographs are also useful. 
 
-## Link to live map
+## Link to interactive map
 
 <https://rolandknapp.github.io/beaver_map/beaver_map.html>
