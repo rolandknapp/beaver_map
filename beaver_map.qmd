@@ -1,6 +1,6 @@
 ---
 title: "Map of beaver locations on the Kern Plateau, California"
-author: "<strong>Roland A. Knapp</strong> <br>email: roland.knapp@ucsb.edu <br> GitHub: https://github.com/rolandknapp"
+author: "<strong>Roland A. Knapp</strong> <br>email: roland.knapp@ucsb.edu <br> GitHub: <https://github.com/rolandknapp>"
 date: "`r format(Sys.time())`"
 format: html
 editor: visual
