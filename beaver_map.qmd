@@ -21,7 +21,7 @@ beaver_info <- read_csv("./data/beaver_locations.csv") %>%
 ```{r, echo=FALSE}
 leaflet(beaver_info, 
         width = 500, 
-        height = 500,
+        height = 600,
         options = leafletOptions(minZoom = 11)) %>% 
 setView(lng = -118.2055, 
           lat = 36.3173, 
