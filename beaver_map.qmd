@@ -27,7 +27,7 @@ setView(lng = -118.2055,
           lat = 36.3173, 
           zoom = 11) %>% 
 setMaxBounds(lng1 = -118.4743, 
-             lat1 = 36.5212,
+             lat1 = 36.5500,
              lng2 = -117.9657, 
              lat2 = 36.1450) %>% 
   addProviderTiles(providers$OpenTopoMap) %>% 
