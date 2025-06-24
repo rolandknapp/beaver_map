@@ -2,11 +2,11 @@ site_id,site_name,lat,lon,elevation,activity,status,date,observer,photo,photo_14
 1000,ramshaw_meadow,36.338671,-118.233303,2639,dam,active,2022-06-11,Knapp,,,,Dam constructed in 2021.
 1001,ramshaw_meadow,36.338961,-118.233107,2636,dam,active,2022-06-11,Knapp,,,,
 1002,ramshaw_meadow,36.339816,-118.232463,2631,dam,active,2022-06-11,Knapp,,,,
-1003,ramshaw_meadow,36.340350,-118.232237,2630,dam,active,2022-06-11,Knapp,,,,
+1003,ramshaw_meadow,36.34035,-118.232237,2630,dam,active,2022-06-11,Knapp,,,,
 1004,ramshaw_meadow,36.342159,-118.233358,2629,dam,active,2022-06-11,Knapp,,,,
-1005,ramshaw_meadow,36.342642,-118.234580,2635,dam,inactive,2022-06-11,Knapp,,,,"Dam breached by river, but portion on bank is intact. "
-1006,ramshaw_meadow,36.343061,-118.235946,2631,dam,inactive,2022-06-11,Knapp,,,,"Dam intact, but unmaintained and leaking."
-1007,ramshaw_meadow,36.343803,-118.241719,2638,dam,inactive,2022-06-11,Knapp,,,,"Old dam that is mostly gone. Based on on Google Earth images, dam built between 2005 and 2009."
+1005,ramshaw_meadow,36.342642,-118.2345798,2635,dam,inactive,2022-06-11,Knapp,,,,"Dam breached by river, but portion on bank is intact. "
+1006,ramshaw_meadow,36.3430609,-118.2359459,2631,dam,inactive,2022-06-11,Knapp,,,,"Dam intact, but unmaintained and leaking."
+1007,ramshaw_meadow,36.343803,-118.2417186,2638,dam,inactive,2022-06-11,Knapp,,,,"Old dam that is mostly gone. Based on on Google Earth images, dam built between 2005 and 2009."
 1008,ramshaw_meadow,36.343497,-118.241243,2638,dam,not_visible,2022-06-11,Knapp,,,,"Based on Google Earth images, dam built between 2005 and 2009."
 1009,ramshaw_meadow,36.343085,-118.240828,2638,dam,not_visible,2022-06-11,Knapp,,,,"Based on Google Earth images, dam built between 2005 and 2009."
 1010,ramshaw_meadow,36.343803,-118.241755,2639,dam,not_visible,2022-06-11,Knapp,,,,"Based on Google Earth images, dam built between 1995 and 2002."
@@ -16,15 +16,15 @@ site_id,site_name,lat,lon,elevation,activity,status,date,observer,photo,photo_14
 1014,ramshaw_meadow,36.347311,-118.250802,2643,dam,not_visible,2022-06-11,Knapp,,,,"Based on Google Earth images, dam built between 1995 and 2002."
 1015,ramshaw_meadow,36.356083,-118.269729,2653,dam,not_visible,2022-06-11,Knapp,,,,"Based on Google Earth images, dam present in 1995 and 2002. Pister (2008) mentions beaver dams in this area in the 1970s."
 1016,ramshaw_meadow,36.356721,-118.270236,2654,dam,not_visible,2022-06-11,Knapp,,,,"Based on Google Earth images, dam present in 1995 and 2002. Pister (2008) mentions beaver dams in this area in the 1970s."
-1017,ramshaw_meadow,36.356994,-118.272450,2654,dam,not_visible,2022-06-11,Knapp,,,,"Based on Google Earth images, dam present in 1995 and 2002. Pister (2008) mentions beaver dams in this area in the 1970s."
+1017,ramshaw_meadow,36.356994,-118.27245,2654,dam,not_visible,2022-06-11,Knapp,,,,"Based on Google Earth images, dam present in 1995 and 2002. Pister (2008) mentions beaver dams in this area in the 1970s."
 1018,ramshaw_meadow,36.356543,-118.273058,2655,dam,not_visible,2022-06-11,Knapp,,,,"Based on Google Earth images, dam present in 1995 and 2002. Pister (2008) mentions beaver dams in this area in the 1970s."
 1019,ramshaw_meadow,36.357573,-118.273588,2656,dam,not_visible,2022-06-11,Knapp,,,,"Based on Google Earth images, dam present in 1995 and 2002. Pister (2008) mentions beaver dams in this area in the 1970s."
 1020,ramshaw_meadow,36.358949,-118.275232,2658,dam,not_visible,2022-06-11,Knapp,,,,"Based on Google Earth images, dam present in 2002. Pister (2008) mentions beaver dains in this area in the 1970s."
 1021,ramshaw_meadow,36.359339,-118.276557,2659,dam,not_visible,2022-06-11,Knapp,,,,"Based on Google Earth images, dam present in 2002. Pister (2008) mentions beaver dains in this area in the 1970s."
-1022,ramshaw_meadow,36.359163,-118.277550,2659,dam,not_visible,2022-06-11,Knapp,,,,"Based on Google Earth images, dam present in 2002 and 2005. Pister (2008) mentions beaver dams in this area in the 1970s. "
-1023,lower_mulkey_creek,36.344300,-118.201538,2616,cut_stems,inactive,2022-07-17,Knapp,20220717_123010.jpg,20220719_090125.jpg,,"Chewed lodgepole pine stump, willows."
-1024,lower_mulkey_creek,36.346379,-118.202103,2619,cut_stems,inactive,2022-07-17,Knapp,20220717_141457.jpg,20220719_091614.jpg,,Chewed aspens.
-1025,lower_mulkey_creek,36.348900,-118.203002,2625,cut_stems,inactive,2022-07-17,Knapp,20220717_145016.jpg,20220719_091536.jpg,,Chewed willows.
+1022,ramshaw_meadow,36.359163,-118.27755,2659,dam,not_visible,2022-06-11,Knapp,,,,"Based on Google Earth images, dam present in 2002 and 2005. Pister (2008) mentions beaver dams in this area in the 1970s. "
+1023,lower_mulkey_creek,36.3443,-118.201538,2616,cut_stems,inactive,2022-07-17,Knapp,20220717_123010.jpg,20220719_090125.jpg,modern,"Chewed lodgepole pine stump, willows."
+1024,lower_mulkey_creek,36.346379,-118.202103,2619,cut_stems,inactive,2022-07-17,Knapp,20220717_141457.jpg,20220719_091614.jpg,modern,Chewed aspens.
+1025,lower_mulkey_creek,36.3489,-118.203002,2625,cut_stems,inactive,2022-07-17,Knapp,20220717_145016.jpg,20220719_091536.jpg,modern,Chewed willows.
 1026,groundhog_meadow,36.364908,-118.312431,2662,cut_stems,inactive,2022-08-28,Knapp,,,,Chewed willows.
 1027,groundhog_meadow,36.365738,-118.311023,2670,cut_stems,inactive,2022-08-28,Knapp,GroundhogMdw_1.jpg,,,Chewed willows.
 1028,golden_trout_creek,36.361797,-118.295671,2705,cut_stems,inactive,2022-08-28,Knapp,GoldenTroutCk_near_creek_crossing_below_TunnelGS_1.jpg,,,Chewed willows. Lots of beaver evidence from western edge of meadow to trail crossing of creek. 
@@ -37,8 +37,12 @@ site_id,site_name,lat,lon,elevation,activity,status,date,observer,photo,photo_14
 1035,four_canyons_creek,36.340917,-118.157552,2674,dam,not_visible,1983-01-01,Pister,,,,"From Pister (2008), mentions beaver dams ~2 miles above SF Kern confluence."
 1036,long_stringer,36.300862,-118.169147,2582,dam,not_visible,1985-01-01,Pister,,,,"From Pister (2008), mentions beaver dams ~1 mile above SF Kern confluence."
 1037,monache_meadow,36.217583,-118.172919,2400,dam,active,2022-10-17,Bouwes,IMG_7913.JPG,,,Torres also recorded beaver dams in this area.
-1038,monache_meadow,36.216350,-118.174469,2399,dam,active,2022-10-17,Bouwes,IMG_7917.HEIC,,,Torres also recorded beaver dams in this area.
-1039,monache_meadow,36.213950,-118.174842,2399,dam,active,2022-10-17,Bouwes,IMG_7923.HEIC,,,Torres also recorded beaver dams in this area.
-1040,snake_creek,36.181457,-118.212070,2430,cut_stems,inactive,2020-01-01,Purdy,,,,Lots of beaver-felled aspens. 
+1038,monache_meadow,36.21635,-118.174469,2399,dam,active,2022-10-17,Bouwes,IMG_7917.HEIC,,,Torres also recorded beaver dams in this area.
+1039,monache_meadow,36.21395,-118.174842,2399,dam,active,2022-10-17,Bouwes,IMG_7923.HEIC,,,Torres also recorded beaver dams in this area.
+1040,snake_creek,36.181457,-118.21207,2430,cut_stems,inactive,2020-01-01,Purdy,,,,Lots of beaver-felled aspens. 
 1041,cottonwood_creek,36.462013,-118.171422,3015,dam,unknown,2022-10-19,Hunter,,,,"Observation shared by John Hunter, cattle grazing permittee in the area. "
-1042,kingfisher_stringer,36.221250,-118.216300,2470,cut_stems,inactive,2022-01-01,Purdy,,,,Chewed willows.
+1042,kingfisher_stringer,36.22125,-118.2163,2470,cut_stems,inactive,2022-01-01,Purdy,,,,Chewed willows.
+1043,mulkey_meadows,36.408926,-118.1638169,2869,cut_stems,inactive,2024-06-20,Knapp,,,,Chewed willows.
+1044,mulkey_meadows,36.408703,-118.162665,2871,dam,inactive,2025-06-06,Knapp,,,,Cut stems sticking out of stream bank. Appears to be an old dam.
+1045,overholster_meadow,36.37368,-118.19969,2761,cut_stems,inactive,2025-06-08,Knapp,,,,Chewed willows.
+1046,freckles_meadow,36.36926,-118.18173,2749,cut_stems,inactive,2025-06-08,Knapp,,,,Chewed willows.
